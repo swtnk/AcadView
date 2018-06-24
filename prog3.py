@@ -4,7 +4,10 @@ def get_output():
   except NameError as error:
     return 'An Exception'
 
-if __name__ == '__main__':
+def main():
     print(get_output())
+
+if __name__ == '__main__':
+    main()
 
 #OUTPUT: An Exception

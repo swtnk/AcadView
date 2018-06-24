@@ -12,5 +12,8 @@ def copy_content(filename1, filename2):
             except IndexError as error:
                 pass
 
-if __name__ == '__main__':
+def main():
     copy_content('dummy_file.txt', 'dummy_file_2.txt')
+
+if __name__ == '__main__':
+    main()

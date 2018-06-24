@@ -6,7 +6,10 @@ def error_detection(num):
     except ZeroDivisionError as error:
       return error
 
+def main():
+  print(error_detection(3))
+
 if __name__ == '__main__':
-    print(error_detection(3))
+    main()
 
 #OUTPUT: division by zero

@@ -6,10 +6,13 @@ def AbyB(a, b):
   else:
     print(c)
 
-if __name__ == '__main__':
+def main():
     AbyB(3, 4)
     AbyB(3, 3)
     AbyB(4, 3)
+
+if __name__ == '__main__':
+    main()
 
 #OUTPUT:
 #An Exception

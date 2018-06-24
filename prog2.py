@@ -4,7 +4,10 @@ def error_detection(lst):
   except IndexError as error:
     return error
 
-if __name__ == '__main__':
+def main():
     print(error_detection([1, 2, 3]))
+
+if __name__ == '__main__':
+    main()
 
 #OUTPUT: list index out of range

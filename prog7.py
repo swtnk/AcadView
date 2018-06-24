@@ -4,5 +4,8 @@ def copy_content(filename1, filename2):
         file2.seek(0,0)
         return(file2.read())
 
-if __name__ == '__main__':
+def main():
     print(copy_content('dummy_file.txt', 'dummy_file_2.txt'))
+
+if __name__ == '__main__':
+    main()
